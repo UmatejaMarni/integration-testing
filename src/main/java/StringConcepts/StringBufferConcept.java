@@ -1,4 +1,4 @@
-package InterfaceConcepts;
+package StringConcepts;
 
 public class StringBufferConcept {
 }
