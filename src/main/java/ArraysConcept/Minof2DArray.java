@@ -1,4 +1,4 @@
-package Arraysconcept;
+package ArraysConcept;
 
 public class Minof2DArray {
     public static void main (String[] args){

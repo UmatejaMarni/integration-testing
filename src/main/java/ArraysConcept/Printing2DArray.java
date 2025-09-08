@@ -1,4 +1,4 @@
-package Arraysconcept;
+package ArraysConcept;
 
 public class Printing2DArray {
     public static void main (String[] args){
