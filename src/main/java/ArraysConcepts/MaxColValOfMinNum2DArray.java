@@ -1,4 +1,4 @@
-package ArraysConcept;
+package ArraysConcepts;
 
 public class MaxColValOfMinNum2DArray {
     public static void main (String[] args){

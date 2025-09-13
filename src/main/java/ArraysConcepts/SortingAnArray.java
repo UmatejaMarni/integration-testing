@@ -1,4 +1,4 @@
-package ArraysConcept;
+package ArraysConcepts;
 
 public class SortingAnArray {
     public static void main(String[] args){
