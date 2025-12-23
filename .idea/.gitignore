@@ -1,10 +1,10 @@
 # IntelliJ IDEA project files
-.idea/
-*.iml
+.idea/          # Ignore the entire .idea folder
+*.iml           # Ignore IntelliJ module files
 
-# Default ignored files
-/shelf/
-/workspace.xml
+# Default ignored files (redundant if .idea/ is ignored, but kept for clarity)
+.idea/shelf/
+.idea/workspace.xml
 
 # Build output
 /out/
