@@ -22,6 +22,7 @@ public static void main(String[] args){
     driver.get("https://rahulshettyacademy.com/");*/
 
     //driver.manage().window().maximize(); //this didnt work in asus laptop
+    //driver.manage().window().fullscreen(); //this didnt work in asus laptop
 
 
 
