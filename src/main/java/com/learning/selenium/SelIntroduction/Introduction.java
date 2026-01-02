@@ -3,7 +3,7 @@ package com.learning.selenium.SelIntroduction;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+//import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Introduction {
 
@@ -28,7 +28,7 @@ public static void main(String[] args){
 
     System.out.println(driver.getTitle());
     System.out.println(driver.getCurrentUrl());
-    //driver.close(); //cloesed the current windows
+    //driver.close(); //closed the current windows
     driver.quit(); //closed all windows
 
 
