@@ -2,7 +2,6 @@ package com.learning.selenium.SelIntroduction;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -41,7 +40,6 @@ public class Locators2 {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".reset-pwd-btn")));
         driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
         String PasswordText = driver.findElement(By.cssSelector("form p")).getText();
-        //Please use temporary password 'rahulshettyacademy' to Login.
         String[] PasswordTextArray = PasswordText.split("'");
         return PasswordTextArray[1].split("'")[0];
 

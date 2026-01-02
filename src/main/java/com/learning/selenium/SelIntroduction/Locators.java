@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class Locators {
@@ -38,8 +37,6 @@ public class Locators {
         WebElement chkbox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("chkboxOne")));
         chkbox.click();
         driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
-
-
         driver.quit();//driver.close gave WebSocket Connection Reset error since browser process ends before Selenium finishes its communication
 
 
