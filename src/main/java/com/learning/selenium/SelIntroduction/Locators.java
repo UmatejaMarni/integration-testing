@@ -33,7 +33,7 @@ public class Locators {
         driver.findElement(By.cssSelector("input[type*=pass]")).sendKeys("rahulshettyacademy");
         //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//didnt work for ElementClickInterceptedException
         //Thread.sleep(1000);//worked to handle ElementClickInterceptedException i.e., since page is shifting/overlapping
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10)); //worked for ElementClickInterceptedException
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(15)); //worked for ElementClickInterceptedException
         WebElement chkbox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("chkboxOne")));
         chkbox.click();
         driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
