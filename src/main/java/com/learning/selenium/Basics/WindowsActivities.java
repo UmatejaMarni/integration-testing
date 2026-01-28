@@ -1,4 +1,4 @@
-package com.learning.selenium.SelIntroduction;
+package com.learning.selenium.Basics;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
