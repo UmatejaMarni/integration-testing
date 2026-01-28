@@ -4,33 +4,42 @@ public class practice {
 
     public static void main(String[] args){
 
-
-        int rows=3;
-        int num=3;
-        int mul=1;
-        for(int i=0;i<3;i++){
+        int[] numbers = {3,4,2,5,7};
 
 
-            for(int j=0;j<=i;j++){
-
-                System.out.print(num*mul + " ");
-
-mul++;
-            }
+        System.out.println(numbers[0]);
+        System.out.println(numbers[numbers.length-1]);
 
 
-            System.out.println();
+        for(int i=numbers.length-1;i>=0;i--){
 
-
+            System.out.println("reverse order is"+numbers[i]);
 
 
         }
+
+        
+        System.out.println("total number of elements is "+numbers.length);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
     }
+
+
+
 
 
 
