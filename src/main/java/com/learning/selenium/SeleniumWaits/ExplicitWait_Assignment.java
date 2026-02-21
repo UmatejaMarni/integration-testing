@@ -14,7 +14,7 @@ import java.util.List;
 
 public class ExplicitWait_Assignment {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)  {
 
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
